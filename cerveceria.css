@@ -2,17 +2,46 @@ footer
 {
     background-color: #aaa;
 }
-h1,h2 
+h1,h2
 {
+    align-items: center;
     font-family: 'Alfa Slab One' , cursive;}
 
-.hero {
-    background: url(imgCerveza.jpg) no-repeat;
-    background-size: cover;
-    height: 50vh;
-    min-height: 600px;
-    color: white;
+.hero-container{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100vh;
+        background: url(img/imgCerveza.jpg) no-repeat;
+        background-size: cover;
+        min-height:700px;
 }
+.hero {
+
+    background-size: cover;
+    min-height: 600px;
+    color: black
+}
+.container-flex {
+    width: cover;
+    box-sizing: border-box;
+    display: flex ;
+    flex-direction: row ;
+    padding: 10px;
+    border: 2px solid #333;
+    background-color: #6d6a6a;
+}
+.item-flex {
+    padding: 5px;
+    margin: 5px;
+text-align: center;
+
+}
+
 .lista-novedades{
     margin: 0;
     padding: 0;
@@ -50,8 +79,31 @@ h1,h2
 .testimonios {
     background-color: #dadada;
     padding-bottom: 4rem !important;
+
 }
-.testimonio {
+.testimonio{
     text-align: center;
     padding: 50px 20px;
+}
+.carousel-control-prev-icon, .carousel-control-netx-icon {
+    background: none;
+}
+.carousel-control-prev-icon::after, .carousel-control-netx-icon::after {
+font-family: "FontAwesome" ;
+font-size: 30px;
+}
+.carousel-control-prev-icon::after {
+    content: "\f137" ;
+}
+.carousel-control-netx-icon::after {
+    content: "\f138";
+}
+.carousel-indicators li {
+    background-color: #000;
+}
+#historia{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+    background-color: black;
 }
