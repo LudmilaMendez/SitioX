@@ -16,7 +16,7 @@ h1,h2
     align-items: center;
     box-sizing: border-box;
     height: 100vh;
-        background: url(img/imgCerveza.jpg) no-repeat;
+        background: url(/img/imgCerveza.jpg) no-repeat;
         background-size: cover;
         min-height:700px;
 }
