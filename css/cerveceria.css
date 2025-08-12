@@ -1,8 +1,13 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .final{
     background-color: #605e5e;
+    justify-content: stretch;
+    align-items: center;
+    margin:0 auto;
 }
 h1,h2
 {
@@ -16,7 +21,6 @@ h1,h2
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
     height: 100vh;
         background: url(../img/imgCerveza.jpg) no-repeat;
         background-size: cover;
@@ -26,7 +30,7 @@ h1,h2
 
     background-size: cover;
     min-height: 600px;
-    color: black
+    color: #000;
 }
 .container-flex {
     width: cover;
